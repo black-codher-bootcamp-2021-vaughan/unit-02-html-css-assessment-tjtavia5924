@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Scenery.jpg) no-repeat;
+    background-size: cover;
+}
+.dropdown{
+    margin: 0 auto;
+    height: 60px;
+}
+
+nav ul {
+ float: center;
+ margin-right: 30px;
+ margin: 0;
+ padding: 0; 
+}
+
+nav ul li {
+ background: none;
+ position: relative;
+ list-style: none;
+ display: block;
+ 
+}
+
+nav ul li a {
+ display: block;
+ padding: 0 15px;
+ color: white;
+ text-decoration: none;
+ line-height: 60px;
+ font-size: 15px;
+ font-family:'Pacifico', cursive;
+}
+
+nav ul li a:hover{
+ background: #243342;
+}
+
+nav ul ul {
+ position: absolute;
+ top: 60px;
+ display: none;
+}
+
+nav ul li:hover> ul {
+ display: block;
+
+}
+
+.container{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family:'Pacifico', cursive;
+
+}
+
+.box-img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    
+}
